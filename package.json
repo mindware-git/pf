@@ -3,8 +3,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "react-router build",
     "dev": "react-router dev",
+    "build": "react-router build",
+    "build:static": "GITHUB_PAGES=true react-router build",
+    "serve:static": "cd build/client && python3 -m http.server 8000",
     "start": "react-router-serve ./build/server/index.js",
     "typecheck": "react-router typegen && tsc",
     "test": "vitest"
