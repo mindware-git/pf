@@ -1,0 +1,210 @@
+[
+  {
+    "id": "steve-jobs",
+    "name": "스티브 잡스",
+    "profileImage": "/images/figures/steve-jobs.jpg",
+    "category": "technology",
+    "birthDate": "1955-02-24",
+    "description": "애플의 공동창업자이자 혁신적인 기업가",
+    "events": [
+      {
+        "id": "sj-1",
+        "figureId": "steve-jobs",
+        "date": "1976-04-01",
+        "title": "애플 컴퓨터 창업",
+        "description": "스티브 워즈니악과 함께 애플 컴퓨터 컴퍼니 창립",
+        "category": "achievement",
+        "importance": "critical",
+        "figureProfile": {
+          "image": "/images/figures/steve-jobs-1976.jpg",
+          "description": "젊은 창업가로서의 모습",
+          "title": "애플 공동창업자"
+        }
+      },
+      {
+        "id": "sj-2",
+        "figureId": "steve-jobs",
+        "date": "1984-01-24",
+        "title": "매킨토시 출시",
+        "description": "혁명적인 GUI 컴퓨터 매킨토시 발표",
+        "category": "achievement",
+        "importance": "high",
+        "figureProfile": {
+          "image": "/images/figures/steve-jobs-1984.jpg",
+          "description": "매킨토시를 발표하는 모습",
+          "title": "애플 CEO"
+        }
+      },
+      {
+        "id": "sj-3",
+        "figureId": "steve-jobs",
+        "date": "1985-09-13",
+        "title": "애플 퇴사",
+        "description": "존 스컬리와의 갈등으로 애플 퇴사",
+        "category": "scandal",
+        "importance": "medium",
+        "figureProfile": {
+          "description": "인생의 전환점",
+          "title": "전 애플 CEO"
+        }
+      },
+      {
+        "id": "sj-4",
+        "figureId": "steve-jobs",
+        "date": "1997-07-09",
+        "title": "애플 복귀",
+        "description": "넥스트 인수로 애플에 복귀",
+        "category": "achievement",
+        "importance": "high",
+        "figureProfile": {
+          "image": "/images/figures/steve-jobs-1997.jpg",
+          "description": "애플로 복귀한 모습",
+          "title": "애플 인터임 CEO"
+        }
+      },
+      {
+        "id": "sj-5",
+        "figureId": "steve-jobs",
+        "date": "2007-01-09",
+        "title": "아이폰 발표",
+        "description": "스마트폰 시대를 연 아이폰 발표",
+        "category": "achievement",
+        "importance": "critical",
+        "figureProfile": {
+          "image": "/images/figures/steve-jobs-2007.jpg",
+          "description": "아이폰을 발표하는 모습",
+          "title": "애플 CEO"
+        }
+      },
+      {
+        "id": "sj-6",
+        "figureId": "steve-jobs",
+        "date": "2011-08-24",
+        "title": "애플 CEO 사임",
+        "description": "건강 악화로 애플 CEO 사임",
+        "category": "politics",
+        "importance": "medium",
+        "figureProfile": {
+          "description": "마지막 공식 모습",
+          "title": "전 애플 CEO"
+        }
+      },
+      {
+        "id": "sj-7",
+        "figureId": "steve-jobs",
+        "date": "2011-10-05",
+        "title": "사망",
+        "description": "췌장암으로 별세",
+        "category": "politics",
+        "importance": "critical",
+        "figureProfile": {
+          "description": "전설의 마지막",
+          "title": "혁신가"
+        }
+      }
+    ]
+  },
+  {
+    "id": "elon-musk",
+    "name": "일론 머스크",
+    "profileImage": "/images/figures/elon-musk.jpg",
+    "category": "technology",
+    "birthDate": "1971-06-28",
+    "description": "테슬라, SpaceX CEO이자 미래 기술의 선구자",
+    "events": [
+      {
+        "id": "em-1",
+        "figureId": "elon-musk",
+        "date": "1995-05-01",
+        "title": "Zip2 창업",
+        "description": "첫 번째 회사 Zip2 창립",
+        "category": "achievement",
+        "importance": "medium",
+        "figureProfile": {
+          "description": "첫 창업 도전",
+          "title": "Zip2 공동창업자"
+        }
+      },
+      {
+        "id": "em-2",
+        "figureId": "elon-musk",
+        "date": "1999-03-01",
+        "title": "X.com 창업",
+        "description": "온라인 결제 서비스 X.com(훗날 페이팔) 창립",
+        "category": "achievement",
+        "importance": "high",
+        "figureProfile": {
+          "description": "온라인 결제 혁신",
+          "title": "X.com 창업자"
+        }
+      },
+      {
+        "id": "em-3",
+        "figureId": "elon-musk",
+        "date": "2002-06-01",
+        "title": "SpaceX 창업",
+        "description": "우주 탐사 기업 SpaceX 창립",
+        "category": "achievement",
+        "importance": "critical",
+        "figureProfile": {
+          "image": "/images/figures/elon-musk-2002.jpg",
+          "description": "우주로의 도전",
+          "title": "SpaceX CEO"
+        }
+      },
+      {
+        "id": "em-4",
+        "figureId": "elon-musk",
+        "date": "2004-02-01",
+        "title": "테슬라 투자",
+        "description": "테슬라에 투자하고 회장 취임",
+        "category": "achievement",
+        "importance": "high",
+        "figureProfile": {
+          "description": "전기차 혁명 시작",
+          "title": "테슬라 회장"
+        }
+      },
+      {
+        "id": "em-5",
+        "figureId": "elon-musk",
+        "date": "2008-10-01",
+        "title": "테슬라 CEO 취임",
+        "description": "테슬라 CEO로 정식 취임",
+        "category": "politics",
+        "importance": "high",
+        "figureProfile": {
+          "image": "/images/figures/elon-musk-2008.jpg",
+          "description": "전기차 리더로서",
+          "title": "테슬라 CEO"
+        }
+      },
+      {
+        "id": "em-6",
+        "figureId": "elon-musk",
+        "date": "2012-05-25",
+        "title": "SpaceX 최초의 ISS 도킹",
+        "description": "민간 기업 최초로 국제우주정거장 도킹 성공",
+        "category": "achievement",
+        "importance": "critical",
+        "figureProfile": {
+          "description": "우주 탐사의 새 역사",
+          "title": "SpaceX CEO"
+        }
+      },
+      {
+        "id": "em-7",
+        "figureId": "elon-musk",
+        "date": "2022-10-27",
+        "title": "트위터 인수",
+        "description": "440억 달러에 트위터 인수하고 X로 재브랜딩",
+        "category": "achievement",
+        "importance": "high",
+        "figureProfile": {
+          "description": "소셜 미디어 제국",
+          "title": "X 소유주"
+        }
+      }
+    ]
+  }
+]
