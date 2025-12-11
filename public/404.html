@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/pf/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pf</title>
+    <script>
+      // Redirect to index.html for SPA routing
+      const path = window.location.pathname;
+      const basePath = "/pf";
+
+      if (!path.startsWith(basePath)) {
+        // If not on the correct base path, redirect
+        window.location.href =
+          basePath + "/?redirect=" + encodeURIComponent(path);
+      } else {
+        // Otherwise redirect to index with the original path
+        const newPath = path.slice(basePath.length) || "/";
+        window.location.href =
+          basePath +
+          "/?" +
+          new URLSearchParams({ redirect: newPath }).toString();
+      }
+    </script>
+  </head>
+
+  <body>
+    Redirecting...
+  </body>
+</html>
