@@ -9,18 +9,16 @@
       // Redirect to index.html for SPA routing
       const path = window.location.pathname;
       const basePath = "/pf";
-
-      if (!path.startsWith(basePath)) {
-        // If not on the correct base path, redirect
-        window.location.href =
-          basePath + "/?redirect=" + encodeURIComponent(path);
+      
+      // If the path is the root or base path, redirect to index
+      if (path === "/" || path === basePath + "/") {
+        window.location.href = basePath + "/index.html";
       } else {
-        // Otherwise redirect to index with the original path
-        const newPath = path.slice(basePath.length) || "/";
-        window.location.href =
-          basePath +
-          "/?" +
-          new URLSearchParams({ redirect: newPath }).toString();
+        // For all other paths, redirect to index.html with the path as hash
+        const newPath = path.startsWith(basePath) 
+          ? path.slice(basePath.length) 
+          : path;
+        window.location.href = basePath + "/index.html#" + newPath;
       }
     </script>
   </head>
